@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
     <title>Signin Template · Bootstrap v5.0</title>
 </head>
-<body class="text-center">    
+<body class="text-center" onload="javascript:bomdia()">    
     <main class="form-signin">
         <form>
           <img class="mb-4" src="bootstrap-logo.svg" alt="" width="72" height="57">
@@ -29,7 +29,11 @@
         </form>
       </main>  
       <script>
-       alert("Bom dia!");
+          function bomdia(){   
+             alert("Bom dia!");
+          }
+         
+          console.log("Olá mundo");
       </script> 
 </body>
 </html>
