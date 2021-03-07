@@ -5,7 +5,7 @@ function bomdia(){
           }
 
 function botaoEvento(){
-  var senha = document.querySelector("inputPassword");   
+  var senha = document.querySelector("#inputPassword");   
   
   if(senha.value.lenght < 6){
      alert('Senha precisa ser maior que 6');
