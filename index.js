@@ -4,13 +4,15 @@ function bomdia(){
              h1v.textContent = "UCSAL";
           }
 
-function botaoEvento(){
+function botaoEvento(this){
   var senha = document.querySelector("#inputPassword");   
   
   if(senha.value.length < 6){
      alert('Senha precisa ser maior que 6');
   }
   alert('Botão clicado');
+  this.submit();
+  
 }
   
   
