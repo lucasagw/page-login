@@ -11,7 +11,7 @@ function botaoEvento(){
      alert('Senha precisa ser maior que 6');
      }
   alert('Botão clicado');
-          }
+}
   
   
            
